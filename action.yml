@@ -1,0 +1,12 @@
+name: 'Sealed Secretes Updater Action'
+description: 'GitHub Action for Sealed Secretes Updater, a tool for updating your Sealed Secrets manifests based on different secrets inputs'
+author: 'Juan Ariza <jariza@vmware.com>'
+inputs:
+  config_path:
+    description: 'Relative path to the configuration file'
+    required: true
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.config_path }}
