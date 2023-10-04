@@ -1,5 +1,5 @@
 name: 'Sealed Secretes Updater Action'
-description: 'GitHub Action for Sealed Secretes Updater, a tool for updating your Sealed Secrets manifests based on different secrets inputs'
+description: 'GitHub Action for updating your Sealed Secrets manifests based on different secrets inputs'
 author: 'Juan Ariza <jariza@vmware.com>'
 inputs:
   config_path:
