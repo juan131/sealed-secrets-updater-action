@@ -1,6 +1,9 @@
 name: 'Sealed Secretes Updater Action'
 description: 'GitHub Action for updating your Sealed Secrets manifests based on different secrets inputs'
 author: 'Juan Ariza <jariza@vmware.com>'
+branding:
+  icon: 'lock'
+  color: 'yellow'
 inputs:
   config_path:
     description: 'Relative path to the configuration file'
