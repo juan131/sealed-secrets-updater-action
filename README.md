@@ -5,10 +5,11 @@ This action updates your Seal Secrets manifests in your repository using the [Se
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [Inputs](#inputs)
-  - [`config_path`](#config_path)
-  - [`skip_secrets`](#skip_secrets)
-- [Example usage](#example-usage)
+- [Sealed Secrets Updater Action](#sealed-secrets-updater-action)
+  - [Inputs](#inputs)
+    - [`config_path`](#config_path)
+    - [`only_secrets`](#only_secrets)
+  - [Example usage](#example-usage)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -18,9 +19,9 @@ This action updates your Seal Secrets manifests in your repository using the [Se
 
 **Required** Relative path to the Sealed Secrets Updater configuration file.
 
-### `skip_secrets`
+### `only_secrets`
 
-**Optional** Skip updating the provided secrets (comma separated list).
+**Optional** Only update provided secrets (comma separated list).
 
 ## Example usage
 

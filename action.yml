@@ -8,12 +8,12 @@ inputs:
   config_path:
     description: 'Relative path to the configuration file'
     required: true
-  skip_secrets:
-    description: 'List of secrets to skip'
+  only_secrets:
+    description: 'Only update provided list of secrets'
     required: false
 runs:
   using: 'docker'
   image: 'Dockerfile'
   args:
     - ${{ inputs.config_path }}
-    - ${{ inputs.skip_secrets }}
+    - ${{ inputs.only_secrets }}

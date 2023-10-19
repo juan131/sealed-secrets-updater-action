@@ -1,4 +1,4 @@
-FROM juanariza131/sealed-secrets-updater:v0.3.0 as sealed-secrets-updater
+FROM juanariza131/sealed-secrets-updater:v0.4.0 as sealed-secrets-updater
 
 # Debug images have a shell, see: https://github.com/GoogleContainerTools/distroless#debug-images
 FROM gcr.io/distroless/base:debug
